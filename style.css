@@ -493,7 +493,10 @@ section.content p{
 
 
 /* ----Olamaa---------------*/
-
+.olamaBox{
+  position: absolute;
+  top: 100%;
+}
 
 .olama{
   text-align: center;
@@ -513,6 +516,7 @@ section.content p{
   display: initial;
   padding: 15px;
   margin-right:20px;
+  margin-left: 5%;
 
 }
 
