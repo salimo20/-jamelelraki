@@ -494,15 +494,15 @@ section.content p{
 
 /* ----Olamaa---------------*/
 .olamaBox{
-  position: absolute;
-  top: 40%;
+  position: relative;
+  left: 10%;
+
 }
 
 .olama{
   text-align: center;
   margin-top: 150px;
-
-
+ 
 }
 .olama a{
   color: #fff;
@@ -515,25 +515,17 @@ section.content p{
   border: 2px solid #fff;
   display: initial;
   padding: 15px;
-  margin-right:20px;
-  margin-left: 5%;
 
-}
-
-#kawl-olama{
   background-color:red ;
-  color: white;
-  font-size: 18px;
+
 }
+
+
 /*------------Asira datiya---------------------------------------*/
 section.content{
 position: relative;
 height: 600px;
 }
-/* .frame{
-  height: auto;
-  position: absolute;
-} */
 
 /*-----------------------------------------------------------------*/
 
@@ -605,7 +597,7 @@ height: 600px;
 
 .elhasad-section{
   width: 100%;
-  height: 1600px;
+  height: 2000px;
   background-image: url(photos/elhased.jpg);
   background-size: cover;
   color: whitesmoke;
@@ -615,58 +607,64 @@ height: 600px;
   width: 90%;
   margin-left: 5%;
   padding-top: 100px;
-  height: 60%;
   position: relative;
+  overflow: hidden;
+ 
+
+}
+
+.hasad-container strong{
+  color:#1df711;
+  
 }
 
 .hasad-container h1{
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
-  display: inline;
-  border: 2px solid white;
   color: #ffffff;
-  position: absolute;
-  padding: 10px 40px;
-  top: 100px;
-  left:45%;
+   
+ 
 }
 
 .hasad-container h2{
-  position: absolute;
-  text-align: center;
-  top: 220px;
-  left:42%;
+  color: red;
+  text-align: right;
   
 }
 
 .hasad-container p{
-  position: absolute;
- text-align: center;
- overflow: auto;
+
+ text-align: right;
+ font-size: 20px;
   top: 300px;
   left:1%;
   right: 1%;
+}
+.hasad-container ol li{
+  color: #ffffff;
+  list-style-type: disc;
 }
 
 .olamaBox{
   height: 200px;
   width: 90%;
-  position: absolute;
-  bottom: -200px;
-  left: 10%;
-  
+}
+
+#kawl-olama{
+  font-size: 20px;
 }
 /*-----------------Olama video box--------------------*/
 .olama-video-box{
   width: 100%;
   height: 410px;
+  position: relative;
 }
 
 
 .olamavideo-table-content{
   border-collapse: collapse;
   width: 90%;
-  height: 200px;
+  height: 250px;
   margin-left: 100px;
   border-radius: 5px 5px 0 0;
 }
@@ -686,10 +684,17 @@ height: 600px;
 }
 .olamavideo-table-content tr td
 {
+ 
  padding-left: 10px;
  border:2px solid #ffffff;
  padding-top: 10px;
   
+}
+
+.olamavideo-table-content tr td iframe{
+  
+  width: 100%;
+  height: 100%;
 }
 
 .hasad-container p{
