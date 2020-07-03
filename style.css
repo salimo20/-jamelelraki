@@ -331,6 +331,7 @@ section.content p{
   float: right;
 }
 
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {
@@ -455,7 +456,7 @@ section.content p{
 /*------------Alsihr---------- */
 
 .sihr{
-  height: 1500px;
+  min-height: 1500px;
   width: 100%;
   background:url(photos/elsihr.jpg);
   background-size: cover;
@@ -487,7 +488,7 @@ section.content p{
 
 .elain-section{
   width: 100%;
-  height: 2000px;
+  min-height: 2000px;
   background-image: url(photos/elain.jpg);
   background-size: cover;
   color: whitesmoke;
@@ -538,9 +539,7 @@ height: 600px;
   
 
 .shahada{
-  text-align: right;
-  
- 
+    text-align: right;
     border: 40px solid transparent;
     padding: 10px;
     border-image:url(border-img.jpg) 15% round;
@@ -588,7 +587,7 @@ height: 600px;
 
 .elmas-section{
   width: 100%;
-  height: 1000px;
+  min-height: 1000px;
   background-image: url(photos/elmas.jpeg);
   background-size: cover;
 
@@ -599,7 +598,7 @@ height: 600px;
 
 .elhasad-section{
   width: 100%;
-  height: 3000px;
+  min-height: 3200px;
   background-image: url(photos/elhased.jpg);
   background-size: cover;
   color: whitesmoke;
@@ -708,7 +707,7 @@ height: 600px;
 
 .amradsection{
   width: 100%;
-  height: 1200px;
+  min-height: 1200px;
   background: url(photos/amra.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
